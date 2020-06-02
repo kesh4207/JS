@@ -53,7 +53,7 @@ test('find user by Id ', () => {
   expect(userController.findById(7462)).toEqual({"email": "tasbia@mail.com", "id": 7462, "name": "tasbia"});
 });
 
-test('find user by email ', () => {
+test('find user by Id ', () => {
   userController.findById(5432);
   expect(userController.findById(5432)).toEqual({"email": "kesh@mail.com", "id": 5432, "name": "kesh"});
 });
