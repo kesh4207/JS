@@ -15,3 +15,23 @@ test('subtract 5 - 4 to equal 1', () => {
 test('subtract -5 - -10 to equal 5', () => {
   expect(calculator.subtract(-5, -10)).toBe(5);
 });
+
+//Implement 2 unit tests for the *divide* function.
+
+test('-6 divided by 3 to be equal -2', () =>{
+  expect(calculator.divide(-6,3)).toBe(-2);
+});
+
+test('- 6 divided by - 3 to be equal 2', () =>{
+  expect(calculator.divide(-6,-3)).toBe(2);
+});
+
+//Implement 2 unit tests for the *multiply* function.
+
+test('- 6 multiplied by - 3 to be equal 18', () =>{
+  expect(calculator.multiply(-6,-3)).toBe(18);
+});
+
+test('- 8 multiplied by 8 to be equal -64', () =>{
+  expect(calculator.multiply(-8,8)).toBe(-64);
+});
