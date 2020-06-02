@@ -35,3 +35,9 @@ test('- 6 multiplied by - 3 to be equal 18', () =>{
 test('- 8 multiplied by 8 to be equal -64', () =>{
   expect(calculator.multiply(-8,8)).toBe(-64);
 });
+
+// challenge for dividing by 0 
+test('-6 divided by 0 to be equal undefined', () =>{
+  expect(calculator.divide(-6,0)).toBe(undefined);
+});
+
